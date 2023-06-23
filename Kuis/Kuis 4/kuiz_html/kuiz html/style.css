@@ -1,0 +1,87 @@
+
+.btn{
+    background-color: blue;
+}
+#btn1{
+    background-color: crimson ;
+}
+
+.container{
+    align-items:center ;
+    text-align: center;
+    background-color: aqua;
+}
+.container2{
+    
+    background-color: aquamarine;
+    border: 10px solid blue;
+    text-align: unset;
+    /* padding: 10; */
+    
+}
+
+footer{
+    
+    text-align: center;
+    background-color: rgb(176, 223, 55);
+    border: 5px solid black;
+    padding: 30px;
+    
+}
+header{
+    background-color: rgb(26, 139, 226);
+}
+
+.foto
+{
+    width: 450px;
+    height: 150px;
+    padding-left: 100px;
+    margin: auto;
+}
+
+.dalem
+{
+    border: 5px solid black;
+    padding: 30px;
+}
+
+p
+{
+    font-size: 15px;
+    padding: 10px;
+}
+
+li
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.kalimat
+{
+    font-size: 15px;
+    padding: 10px
+}
+
+.kecil
+{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.tulisan
+{
+    font-size: 14px;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.pm
+{
+    font-size: 18px;
+    padding-left: 100px;
+    margin-top: -10px;
+}

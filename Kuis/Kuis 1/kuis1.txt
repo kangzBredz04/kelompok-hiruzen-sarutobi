@@ -1,0 +1,18 @@
+Nama   : Anwar Juniansyah Harahap
+Matkul : HTML
+Tutor  : A wahyu
+1. - Toko online
+	contohnya : Lazada,Shopee,Tokopedia
+
+   - Media Sosial
+	contohnya : Instagram,Facebook,Whatsapp
+
+   - Search engine
+	contohnya : Google,Chrome,Yandex
+
+2. Client Memberikan perintah kepada server kemudian server memberikan respon kepada client
+
+3. <p>  -> membuat paragraf
+   <h1> -> membuat heading/Judul besar
+   <a>  -> untuk membuat link menuju website yang ditentukan 
+   <br> -> untuk membuat baris baru

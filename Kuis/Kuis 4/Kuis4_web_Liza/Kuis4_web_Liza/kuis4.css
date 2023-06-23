@@ -1,0 +1,38 @@
+header {
+    background-color: rgb(141, 221, 180);
+    > h1 {
+      text-align: center;
+    }
+  }
+  
+ section {
+    background-color: blue;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    > article {
+      border: 2px solid black;
+      background-color: rgb(168, 245, 245);
+      padding: 16px;
+    }
+  }
+  
+img {
+    width: 528px;
+  }
+  
+p {
+    text-align: justify;
+  }
+  
+u {
+    color: rgb(25, 0, 255);
+  }
+  
+footer {
+    background-color: rgb(177, 177, 169);
+    padding: 16px;
+    border: 2px solid black;
+    > h1{
+      text-align: center;
+    }
+  }

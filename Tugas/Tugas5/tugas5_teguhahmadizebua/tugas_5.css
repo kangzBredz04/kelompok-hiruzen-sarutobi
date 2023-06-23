@@ -1,0 +1,189 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+header{ 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #99A98F;
+    height: 15vh;
+}
+.kanan{
+    background-color:#FFF8DE ;
+}
+.kanan h3{
+    margin-top: 100px;
+}
+.ket{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.container1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color:antiquewhite;
+}
+.th-border{
+    background-color:yellow;
+    text-align: center;
+    font-size: 15px;
+}
+.content h3:hover{
+    background-color: #fff;
+}
+.content h3{
+    background-color: beige;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.content input{
+    padding:3px;
+    border-top-right-radius: 5px;
+    border: 2px solid #D6E8DB;
+}
+.content input:hover{
+    background-color: rgb(214, 174, 174);
+}
+#alamat-text:focus{
+    background-color: rgb(236, 207, 207);
+
+}
+
+.col-1
+{
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 32px;
+}
+.username span{
+    background-color:aliceblue;
+}
+
+.col-2
+{
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: grid;
+    gap: 32px;
+}
+
+.col-3-4
+{
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: grid;
+    gap: 32px;
+}
+.col-5
+{
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    display: grid;
+    gap: 32px;
+}
+label{
+    font-size: small;
+    color: #333;
+ 
+}
+.pembayaran ul{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pembayaran h4{
+    text-align: center;
+    background-color:#fff;
+    border-radius: 20px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pembayaran label{
+    font-size: medium;
+}
+
+.nama-depan,.nama-belakang,.username,.email,.alamat,.prov
+{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.prov select{
+    padding:1%;
+}
+
+.table{
+    
+    margin: 20px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.judul{
+    color: #333;
+    text-align: center;
+
+}
+.checkout{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    gap: 16px;
+    margin-right: 150px;
+
+}
+.checkout button{
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius:3px ;
+    background-color: white;
+}
+.checkout #co:hover{
+    background-color: rgb(123, 165, 223);
+    
+}
+.checkout #co a{
+    color: black;
+}
+.checkout #batal a{
+    color: black;
+}
+.checkout #batal a:hover{
+    color: white;
+}
+
+.checkout #co a:hover{
+    color: white;
+}
+.checkout #batal:hover{
+    background-color: rgb(255, 69, 69);
+}
+footer {
+    background-color: #99A98F;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

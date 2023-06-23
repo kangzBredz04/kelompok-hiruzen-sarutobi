@@ -1,0 +1,192 @@
+NAMA : FADILAH AULIA
+1.3 JENIS WEBSITE:
+	A.TOKO ONLINE :SHOOPEE,TOKOPEDIA,BLIBI
+	B.SEARCH ENGINEER: GOOGLE,BROWSER,AI
+	C.web portal :portal Pendidikan,Kesehatan,politik
+2. Menurut saya cara kerja website itu seorang client mengirimkan request ke server nanti si server itu akan mengolah data dan memberikan respons ke client.
+3. <body> untuk mendeklarasikan sesuatu yang akan ditampilkan.
+     <head> untuk mendeklarasikan html dan tidak ditampilkan.
+     <b> untuk bold atau menebalkan tulisan
+     <h1> sampai <h6> untuk heading,dimana nanti besar tulisannnya akan menyesuaikan sesuai h yang dipakai.
+
+
+
+
+
+Nama   : Anwar Juniansyah Harahap
+Matkul : HTML
+Tutor  : A wahyu
+1. - Toko online
+	contohnya : Lazada,Shopee,Tokopedia
+
+   - Media Sosial
+	contohnya : Instagram,Facebook,Whatsapp
+
+   - Search engine
+	contohnya : Google,Chrome,Yandex
+
+2. Client Memberikan perintah kepada server kemudian server memberikan respon kepada client
+
+3. <p>  -> membuat paragraf
+   <h1> -> membuat heading/Judul besar
+   <a>  -> untuk membuat link menuju website yang ditentukan 
+   <br> -> untuk membuat baris baru
+
+
+
+
+
+Nama : Aisyah Romaito Siregar
+1.3 jenis website
+   - web toko online   : tokopedia,shopee
+   - web pendidikan    : ruang guru ,brainly
+   - web search engine : google,chat gpt
+   - web sosial media  : facebook,instagram,tik tok
+   - web olahraga      : fifa
+
+2. cara kerja website itu ada client memberikan pertanyaan dan server menerima dan memberikan 
+   respons kepada client
+
+
+3.-<p></p> fungsinya untuk membuat paragraf
+  -<hr> fungsinya untuk membuat garis horizontal
+  -<h></h> fungsinya untuk membuat heading 
+  -<title> fungsinya membuat judul
+  -<br> fungsinya membuat baris baru 
+
+
+
+
+
+Nama : TEGUH AHMADI ZEBUA 
+1.  - toko online 
+	contohnya : shoope & tokpedia
+    - portal web
+	contohnya : tribunnews & compas
+    - media sosial
+	contohnya : instagram & facebook
+
+2.  cara kerja website yaitu :
+	client mengirim request ke server dan 
+	server mengirim respont ke client
+
+3. a. <p></p> : yaitu untuk membuat paragraf
+   b. <h1></h1> : yaitu untuk mengatur ukuran font
+   c. <title></title> : yaitu untuk memberi informasi tentang html atau judul html
+
+
+
+
+Nama : Raja Salsabilla Annatasya
+01. jenis- jenis website 
+1. toko online = Tokopedia,Lazada.
+2. compony profile = nike, starbucks
+3. sosial media = Instagram, facebook
+4. web entertaimant = Netflix, youtube 
+02. ada dua unsur dalam web client dan server 
+Server menerima request dari client lalu client menerima respondent dari server 
+03. <p> paragraf untuk membuat isi dari sebuah web 
+<b> text bold, untuk menebalkan teks
+<mark>  menandai teks, menstabilokan teks 
+<h1> sampai <h6> heading, untuk membuat sub judul pada web 
+<little> judul, membuat judul dokumen  
+
+
+
+
+--> IMRAN SIHALLOHO <--
+
+
+soal 1
+
+- media sosial 
+	contoh : instagram,facebook,twitter.
+- toko online
+	contoh : Shoope,Lazada,JD id.
+- portal web
+      contoh : tribunews,compas
+
+
+soal 2
+
+=> website bekerja antara client dan server , jadi client akan memberikan perintah ( request kepada si server ) lalu server akan mengolah datanya
+   dan meresponnya kepada client dan menampilkan hasil dari yang kita request atau perintah yang telah kita buat.
+
+ilustrasi : 
+
+	 request
+client -----> server
+
+	 respon
+client <----- server
+
+
+soal 3
+
+<h1></h1> => berfungsi untuk membuat title atau judul dari sebuah text 
+<p></p>  => berfungsi untuk membuat paragraf 
+<br> => berfungsi untuk membuat baris baru
+<title></title> => berfungsi untuk membuat nama alamat browser
+<a> => untuk membuat link menuju website yang di tentukan(ibarat menyambungkan ke web lain)
+
+
+
+
+Nama: sitinurhaliza sitanggang
+
+Soal no 1:
+= 
+1 . pendidikan
+Contohnya : ruang guru , brainly 
+2 . sosial media
+Contohnya: twiter , telegram
+3. tooko online
+Contohnya :  shoope ,lazada
+
+Soal no 2
+= website ,cara kerjanya yaitu dengan mengakses permintaan konsumen 
+
+Soal n0 3 
+= <u>  yaitu membuat garis bawah 
+<head> yaitu untuk dokumen yang di atas 
+<body > yaitu untuk mengisi paragraf
+
+
+
+
+
+Nama : Susi Haryati Hutasuhut
+Kelompok : Hiruzen Sarutobi
+
+						KUIS 1
+Soal 1
+Sebutkan 3 Jenis website dan sebutkan masing-masing 2 contohnya
+
+*WEB SOSIAL MEDIA
+	- Instagram
+	- Telegram
+	- WhatsApp
+*WEB HIBURAN
+	- WE TV
+	- VIU
+	- NETFLIX
+*WEB PENDIDIKAN
+	- RUANG GURU
+	- BRAINLY
+	- QUIPPER
+
+
+Soal 2
+Menurut pendapat kalian cara kerja website itu kayak gimana
+
+Jawab: 
+	Cara kerjanya : Client/user memberikan request atau bisa disebut sebagai perintah kepada server. Kemudian server akan memprosen perintah yang di minta oleh user setelah itu server akan mengirimkan respon ke  user sesuai dengan yang diperintahkan oleh user.
+
+
+Soal 3
+Sebutkan 3 tag HTML dan apa fungsi nya dari tag tersebut
+
+Jawab :
+-<!DOCTYPE html> , untuk menyatakan sebuah dokumen HTML
+- <body> dan </body>, Untuk menunjukkan isi dari halaman web yang terlihat
+-<p> dan </p>, digunakan untuk membuat suatu paragraf baru

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas 4</title>
+    <style>
+        header {
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            background-color: rgb(21, 21, 86);
+            color: rgb(253, 254, 255);
+        }
+
+        h3 {
+            color: rgb(21, 21, 86);
+            background-color: rgb(131, 183, 243);
+            border: 5px solid rgb(131, 183, 243);
+            ;
+        }
+
+        .baris-pertama {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 32px;
+        }
+
+        .nama,
+        .nik,
+        .tanggal-lahir,
+        .tempat-lahir,
+        .jenis-kelamin,
+        .warga,
+        .agama,
+        .nama-ibu,
+        .email,
+        .tlpon,
+        .studi-pertama,
+        .studi-kedua {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .baris-kedua {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 32px;
+        }
+
+        .lahir {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+        }
+
+        .baris-ketiga {
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 32px;
+        }
+
+        .baris-keempat{
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 32px;
+        }
+
+        .identitas {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+        }
+
+        .tambahan {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+        }
+
+        .studi {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            gap: 32px;
+        }
+
+        button {
+            background-color: rgb(131, 183, 243);
+            color: black;
+        }
+        .alamat-asal{
+            display: grid;
+            grid-template-columns: 3fr 2fr;
+            gap: 32px;
+        }
+
+        .asal{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Form Pendaftaran Penerimaan Mahasiswa Baru PUB Angkatan 23</h1>
+        <img src="logo pub.png" width="100px" height="100px" alt="">
+    </header>
+    <div class="container">
+        <fieldset>
+            <legend>
+                <h3>Data Diri</h3>
+            </legend>
+            <form action="">
+                <div class="baris-pertama">
+                    <div class="nama">
+                        <label for="nama" weidth="250">Nama Lengkap:</label>
+                        <input type="text" placeholder="Masukan Nama Lengkap">
+                    </div>
+                    <div class="nik">
+                        <label for="nik">Nomor Identitas(NIK):</label>
+                        <input type="text" placeholder="Masukan Nomor NIK">
+                    </div>
+                </div>
+                <div class="baris-kedua">
+                    <div class="lahir">
+                        <div class="tempat-lahir">
+                            <label for="tempat">Tempat Lahir:</label>
+                            <input type="text" placeholder="Masukan Tanggal Lahir">
+                        </div>
+                        <div class="tanggal-lahir">
+                            <label for="tanggal">Tanggal Lahir:</label>
+                            <input type="date" placeholder="dd/mm/yyyy">
+                        </div>
+                    </div>
+                    <div class="jenis-kelamin">
+                        <label for="jk">Jenis Kelamin:</label>
+                        <select name="pilihjk" id="jk">
+                            <option value="pil">Pilih</option>
+                            <option value="p">Cewe</option>
+                            <option value="l">Cowo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="baris-ketiga">
+                    <div class="identitas">
+                        <div class="warga">
+                            <label for="warga">Kewarganegaraan:</label>
+                            <select name="warga" id="pilwarga">
+                                <option value="pil">Pilih</option>
+                                <option value="wni">WNI</option>
+                                <option value="wna">WNA</option>
+                            </select>
+                        </div>
+                        <div class="agama">
+                            <label for="agama">Agama:</label>
+                            <select name="agama" id="pilgam">
+                                <option value="pil">Pilih</option>
+                                <option value="islam">Islam</option>
+                                <option value="Kristen">Kristen</option>
+                                <option value="Katolik">Katolik</option>
+                                <option value="Hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Kong-Hu-chu">Kong Hu Chu</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="nama-ibu">
+                        <label for="Ibu">Nama Ibu Kandung:</label>
+                        <input type="text" placeholder="Masukaan Nama Ibu Kandung">
+                    </div>
+                </div>
+                <div class="baris-keempat">
+                    <div class="tambahan">
+                        <div class="email">
+                            <label for="email">Email:</label>
+                            <input type="text" placeholder="Masukan Email">
+                        </div>
+                        <div class="tlpon">
+                            <label for="tlpon">No Telp:</label>
+                            <input type="text" placeholder="Masukan No Telp">
+                        </div>
+
+                    </div>
+                    <div class="kosong"></div>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+
+    <div class="container2">
+        <fieldset>
+            <legend>
+                <h3>Data Alamat Asal</h3>
+            </legend>
+            <form action="">
+                <div class="alamat-asal">
+                    <div class="asal">
+                        <div class="alamat">
+                            <label for="alamat">Alamat:</label><br>
+                            <textarea name="alamat" cols="25" rows="2"></textarea>
+                        </div>
+                        <div class="pos">
+                            <label for="pos">Kode Pos:</label>
+                            <input type="text" placeholder="Kode Pos">
+                        </div>
+                    </div>
+                    <div class="kosong"></div>
+                </div>
+
+                <label for="provinsi">Provinsi:</label>
+                <select name="provinsi" id="pilprov">
+                    <option value="pilih">Pilih</option>
+                    <option value="aceh">Aceh</option>
+                    <option value="sumut">Sumatera Utara</option>
+                    <option value="sumbar">Sumatera Barat</option>
+                    <option value="riau">Riau</option>
+                    <option value="Jabar">Jawa Barat</option>
+                    <option value="jateng">Jawa Tengah</option>
+                </select>
+                <label for="kab">Kabupaten:</label>
+                <select name="kab" id="pilkab">
+                    <option value="pilih">Pilih</option>
+                    <option value="toba">Toba</option>
+                    <option value="kbb">Bandung Barat</option>
+                    <option value="saltig">Salatiga</option>
+                </select>
+                <label for="kec">Kecamatan:</label>
+                <select name="kec" id="pilkec">
+                    <option value="pilih">Pilih</option>
+                    <option value="balige">Balige</option>
+                    <option value="sigumpar">Sigumpar</option>
+                    <option value="silaen">Silaen</option>
+                </select>
+            </form>
+        </fieldset>
+
+    </div>
+    <div class="container3">
+        <fieldset>
+            <legend>
+                <h3>Data Pendidikan</h3>
+            </legend>
+            <form action="">
+                <label for="pendidikan">Pendidikan Terakhir:</label>
+                <select name="pendidikan" id="pilpen">
+                    <option value="pilih">Pilih</option>
+                    <option value="ipa">SMA-IPA</option>
+                    <option value="ips">SMA-IPS</option>
+                    <option value="bahasa">SMA-BAHASA</option>
+                    <option value="agama">MA-AGAMA</option>
+                    <option value="maipa">MA-IPA</option>
+                    <option value="maips">MA-IPS</option>
+                    <option value="akt">SMK-AKUNTANSI</option>
+                    <option value="tabog">SMK-TATA BOGA</option>
+                    <option value="mesin">SMK-TEKNIK MESIN</option>
+                    <option value="rpl">SMK-RPL</option>
+                </select>
+                <label for="sekolah">Nama Sekolah:</label>
+                <input type="text" placeholder="Masukan Nama Sekolah">
+                <label for="ratarata">Rata-rata Nilai Rapor Kelas 12:</label>
+                <input type="text" placeholder="Masukan Rata-rata nilai rapor">
+            </form>
+        </fieldset>
+    </div>
+    <div class="container4">
+        <fieldset>
+            <legend>
+                <h3>Pilihan Program Studi</h3>
+            </legend>
+            <form action="">
+                <div class="studi">
+                    <div class="studi-pertama">
+                        <label for="studi1">Pilih Program Studi 1:</label><br>
+                        <select name="studi1" id="std">
+                            <option value="pilih">Pilih</option>
+                            <option value="mi">D3 Manajemen Informatika</option>
+                            <option value="ti">S1 Teknik Informatika</option>
+                            <option value="tind">S1 Teknik Industri</option>
+                            <option value="akt">S1 Akuntansi</option>
+                        </select>
+                    </div>
+                    <div class="studi-kedua">
+                        <label for="studi">Pilih Program Studi 2:</label><br>
+                        <select name="studi2" id="std2">
+                            <option value="pilih">Pilih</option>
+                            <option value="mi">D3 Manajemen Informatika</option>
+                            <option value="ti">S1 Teknik Informatika</option>
+                            <option value="tind">S1 Teknik Industri</option>
+                            <option value="akt">S1 Akuntansi</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </fieldset>
+        <form>
+            <button>Daftar</button>
+            <button>Reset</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(179, 244, 255);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 80px;
+    align-items: center;
+    grid-gap: 30px;
+}
+img{
+    object-fit: cover;
+}
+
+.grid > article {
+    box-shadow: 10px 5px 5px 0px black;
+    border-radius: 20px;
+    text-align: center;
+    background:pink ;
+    width: 300px;
+}

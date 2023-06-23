@@ -1,0 +1,14 @@
+.container-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group-1{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.form-group-2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}

@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+}
+
+* {
+  margin-inline: auto;
+}
+
+#bagian-1 {
+  padding: 16px 32px;
+  border: 2px solid rgb(140, 84, 0);
+  align-items: center;
+  background-color: #ffeebb;
+}
+
+#gambar-org {
+  width: 128px;
+  border-radius: 100%;
+  margin-inline: 16px;
+}
+
+.social-media {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  > div{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+  }
+}
+
+#bagian-2 {
+  display: flex;
+  > .isi-bagian-2 {
+    position: absolute;
+    top: 16px;
+    left: 530px;
+    margin-right: 310px;
+  }
+}

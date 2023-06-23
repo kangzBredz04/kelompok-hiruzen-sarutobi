@@ -1,0 +1,95 @@
+.container{
+    max-width: 80%;
+    margin: 20px auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px skyblue,-2px -2px 2px skyblue;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+h3{
+    background-color: skyblue;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 4px;
+}
+.nama-nomor, .tempat-jk, .kewarganegaraan-ibu, .email-kosong{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    padding: 10px;
+    gap: 30px;
+    margin: 0px;
+}
+.tempat-tanggal, .kewarganegaraan, .email-no{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 30px;
+}
+.nama, .tempat, .tanggal, .jk, .ibu, .agama, .warga, .email, .no{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+input,select{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(128, 122, 122);
+
+}
+label{
+    padding: 10px 0px;
+}
+.alamat-kode{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    padding: 10px;
+    gap: 30px;
+    margin: 0px;
+}
+.alamat-kode .alamat, .alamat-kode .kode{
+    display: flex;
+    flex-direction: column;
+}
+.alamat-kode .kode input{
+    width: 25%;
+}
+.alamat-kode .alamat input{
+    height: 60px;
+}
+.data-pendidikan, .provinsi-kecamatan, .program-studi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    padding: 10px;
+}
+.pendidikan, .nama-sekolah, .rata-rata, .provinsi, .kabupaten, .kecamatan, .program1, .program2{
+    display: flex;
+    flex-direction: column;
+}
+.perantara{
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+}
+button{
+    padding: 10px;
+    color: white;
+    border-radius: 4px;
+}
+.satu{
+    border: 1px solid blue;
+    background-color: blue;
+}
+.dua{
+    background-color: salmon;
+    border: 1px solid salmon;
+}
+button:hover{
+    opacity: 0.5;
+    color: black;
+}

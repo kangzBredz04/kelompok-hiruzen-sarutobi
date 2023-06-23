@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header:hover {
+  background-image: linear-gradient(#FF2171, #FF9EAA);
+}
+table {
+  background-color: #F2B6A0;
+  width: 100%;
+  border-collapse: collapse;
+  padding: 12px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+  color: #482121;
+}
+
+th {
+  background-color: #A4D0A4;
+}
+
+header {
+  border: 10px solid #E06469;
+  background-color: #F2B6A0;
+  color: aliceblue;
+  align-items: flex-start;
+  justify-content: space-between;
+  display: inline-flex;
+  width: 1250px;
+}

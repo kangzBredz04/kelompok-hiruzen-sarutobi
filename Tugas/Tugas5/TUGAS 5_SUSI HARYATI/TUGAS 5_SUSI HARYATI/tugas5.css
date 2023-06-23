@@ -1,0 +1,113 @@
+header {
+    text-align: center;
+    color: #1C0C5B;
+    align-content: center;
+    background-image: linear-gradient(to left, #916BBF,#F4ABC4,#F6C6EA);
+    border: 2px solid white;
+}
+
+legend {
+    text-align: center;
+    color: #0E2954;
+}
+
+.baris-pertama {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 32px;
+}
+
+.nama,
+.nik,
+.tanggal-regis,
+.tempat-regis,
+.gender,
+.cabang,
+.prodi,
+.lomba,
+.email,
+.tlpon,
+.kelas {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding: 5px;
+}
+
+input,select{
+    padding: 8px;
+    border-radius: 4px;
+}
+
+aside {
+    text-align: center;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.baris-kedua {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+
+.regis {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 32px;
+}
+
+.baris-ketiga {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+
+.pertandingan {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+
+.baris-keempat{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+
+.tambahan{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+
+button{
+    padding: 6px;
+    background-image: linear-gradient(to left, #94B3FD, #F6C6EA);
+    color: black;
+}
+
+footer{
+    text-align: center;
+    background-color: white;
+    border: 15px solid white;
+}
+
+h2{
+    padding: 8px;
+    border-radius: 20px;
+    color: black;
+    background-image: linear-gradient(to left, #94B3FD,#FFA3FD,#F6C6EA);
+    text-align: center;
+}
+
+.pembungkus{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 32px;
+}
+
+table{
+    padding: 16px;
+}

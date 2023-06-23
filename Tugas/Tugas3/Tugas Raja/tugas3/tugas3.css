@@ -1,0 +1,39 @@
+.name{
+    color: black;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+
+}
+aside{
+    border: 2px solid azure ;
+    background-color: azure;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: 2px solid azure;
+}
+article{
+    text-align: justify;
+    padding: 5px;
+    background-color: honeydew;
+}
+nav{
+    text-align: center;
+    align-items: center;
+    border: 2px solid cornflowerblue;
+    background-color: cornflowerblue;
+    display: block;
+
+}
+.zb1{
+    background-color: honeydew;
+}
+footer{
+    text-align: center;
+    /* align-items: center; */
+    border: 2px solid cornflowerblue;
+    background-color: cornflowerblue;
+    /* display: block; */
+
+}

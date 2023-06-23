@@ -1,0 +1,61 @@
+.container {
+    border: 2px solid rgba(3, 67, 95, 0.998);
+    background-color: rgba(3, 67, 95, 0.998);
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+
+aside {
+    border: 2px solid rgba(229, 233, 234, 0.998);
+    background-color: rgba(229, 233, 234, 0.998);
+}
+
+nav {
+    border: 2px solid rgba(229, 233, 234, 0.998);
+    background-color: rgba(229, 233, 234, 0.998);
+}
+
+span {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+footer {
+    border: 2px solid rgba(3, 67, 95, 0.998);
+    background-color: rgba(3, 67, 95, 0.998);
+    color: aliceblue;
+}
+
+.ft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+figure {
+    display: flex;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

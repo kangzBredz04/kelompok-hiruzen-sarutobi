@@ -1,0 +1,62 @@
+header{
+    font-family: cursive;
+    margin: 10px 50px 20px;
+    font-size: 20px;
+}
+.im{
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 5% 15%;
+}
+span{
+    display: flex;
+    font-size: 20px;
+}
+.satu{
+    color: red;
+    background-color: white;
+}
+section{
+    font-size: 19px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 10px 300px;
+    background-color: pink;
+}
+.pict{
+    margin-inline: 17% 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.iklan{
+    width:"650px" ;
+    height:"500px";
+}
+.tiga{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-inline: 5% 15%;
+    display: grid;
+    grid-gap: 25px;
+}
+.isi{
+    background-color: palevioletred;
+}
+.about{
+    font-size: 19px;
+    text-align: justify;
+}
+.sej
+{
+    border: 4mm ridge rgba(211, 220, 50, .6);
+}
+.gbr{
+    grid-template-columns: 1fr 1fr;
+    margin: 50px 0;
+    display: grid;
+    grid-gap: 25px;
+}
+.dua{
+    padding: 1em;
+}

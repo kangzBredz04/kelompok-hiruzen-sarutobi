@@ -1,0 +1,75 @@
+.pp{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+span {
+    display: flex;
+
+}
+
+.btn {
+    align-items: center;
+    display: flex;
+    border: 11px solid white;
+    justify-content: center;
+    height: 100px;
+    background-color: black;
+    color: aqua;
+
+}
+nav{
+    height: 76px;
+}
+body {
+    background-color: antiquewhite;
+    border: 11 px solid black;
+    color: black;
+
+}
+footer{
+    background-color: black;
+    color: aqua;
+    border: 7px solid white;
+}
+.a {
+    display: flex;
+    align-items: center;
+
+}
+section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#posisi {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+.y {
+    display: flex;
+    justify-content: center;
+}
+.p {
+    display: flex;
+    justify-content: center;
+    height: 500 px;
+
+}
+aside {
+    width: 250px;
+
+
+}
+span {
+    display: flex;
+    justify-content: space-between;
+}
+.o{
+    width: 100%;
+    font-size: 106%;
+
+}

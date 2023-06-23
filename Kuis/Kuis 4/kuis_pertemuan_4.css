@@ -1,0 +1,20 @@
+.btn{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: black
+}
+section{
+    background-color: cadetblue;
+    border: 11px solid gray;
+  
+}
+footer{
+    background-color : black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+

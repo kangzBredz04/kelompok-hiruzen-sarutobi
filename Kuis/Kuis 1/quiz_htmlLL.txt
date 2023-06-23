@@ -1,0 +1,18 @@
+nama : TEGUH AHMADI ZEBUA 
+
+
+
+1.  - toko online 
+	contohnya : shoope & tokpedia
+    - portal web
+	contohnya : tribunnews & compas
+    - media sosial
+	contohnya : instagram & facebook
+
+2.  cara kerja website yaitu :
+	client mengirim request ke server dan 
+	server mengirim respont ke client
+
+3. a. <p></p> : yaitu untuk membuat paragraf
+   b. <h1></h1> : yaitu untuk mengatur ukuran font
+   c. <title></title> : yaitu untuk memberi informasi tentang html atau judul html

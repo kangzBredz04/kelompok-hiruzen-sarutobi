@@ -1,0 +1,25 @@
+header{
+  background-color:  rgb(208, 90, 90);
+  text-align: center;
+}
+body{
+  font-size: 20px;
+}
+img{
+  width: 525px;
+}
+footer{
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(208, 90, 90);
+  border: solid red;
+}
+article{
+  background-color: plum;
+  border: 4px dashed black;
+  text-align: justify;
+  padding-right: 20px;
+}
+section{
+  border: 12px solid rgb(56, 56, 184);
+}

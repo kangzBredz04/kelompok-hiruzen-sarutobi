@@ -1,0 +1,67 @@
+h2{
+    padding: 8px;
+    background-color: rgb(164, 164, 164);
+    font-family: cursive;
+    >p{
+        text-align: center;
+    }
+}
+.teratas{
+    background-color: rgb(125, 125, 242);
+}
+.baris-pertama{
+        display: grid;
+        grid-template-columns: 4fr 2fr;
+        gap: 32px;
+}
+input,select,option{
+    border-radius: 8px;
+    width: 270px;
+    height: 32px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px darkblue; 
+}
+textarea{
+    border-radius: 8px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px darkblue;
+    color: teal;
+    font-size: 18px;
+}
+input[type=text]{
+    background-color: none;
+    color: brown;  
+}
+.input-2{
+    width: 200px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px white;
+    height: 40px;
+    font-size: 15px;
+}
+.input-2:hover{
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px black;
+    cursor: pointer;
+    transition: all 0.5s;
+    height: 40px;
+    width: 200px;
+}
+#inputan-2{
+    text-align: right;
+    padding: 10px;
+}
+
+.inputan{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

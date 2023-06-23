@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+    color: powderblue;
+}
+.datadiri, .dataalmt{
+    background-color: pink;
+    border-radius: 16px;
+    padding: 2px 16px;
+}
+.barispertama{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 36px;
+}
+.nama-lengkap, .no-identitas, .tempat, .tgl, .jenis-kelamin, .kwg , .agama , .ibu, .mail, .nohp, .alamat, .pos, .prov, .kab, .kec{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.penter, .jur, .rata, .namskul, .piljur1, .piljur2{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+input,select{
+    padding: 8px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.bariskedua{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+.tgg{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+input[type=text] , input[type=date], input[type=textarea]{
+    border: 2px solid plum;
+}
+input[type=text]:focus , input[type=date]:focus, input[type=textarea]:focus{
+    border: 4px solid pink;
+    color: cornflowerblue;
+}
+select{
+    border: 2px solid plum;
+}
+.barisketiga{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+#kwg-agm{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+label{ 
+    color: palevioletred;
+}
+.sosmed{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+.alamatpos{
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    gap: 33px;
+}
+.alleng{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    gap: 39px;
+}
+.pend{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    gap: 32px;
+}
+.juring{
+    display: grid;
+    grid-template-columns:  4fr 4fr;
+    gap: 32px;
+}
+
+button{
+    background-color: powderblue;
+    color: palevioletred;
+    padding: 16px;
+}
+button:active{
+    background-color: plum;
+    color: cornflowerblue;
+}

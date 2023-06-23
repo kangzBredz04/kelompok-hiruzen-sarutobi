@@ -1,0 +1,34 @@
+--> IMRAN SIHALLOHO <--
+
+
+soal 1
+
+- media sosial 
+	contoh : instagram,facebook,twitter.
+- toko online
+	contoh : Shoope,Lazada,JD id.
+- portal web
+      contoh : tribunews,compas
+
+
+soal 2
+
+=> website bekerja antara client dan server , jadi client akan memberikan perintah ( request kepada si server ) lalu server akan mengolah datanya
+   dan meresponnya kepada client dan menampilkan hasil dari yang kita request atau perintah yang telah kita buat.
+
+ilustrasi : 
+
+	 request
+client -----> server
+
+	 respon
+client <----- server
+
+
+soal 3
+
+<h1></h1> => berfungsi untuk membuat title atau judul dari sebuah text 
+<p></p>  => berfungsi untuk membuat paragraf 
+<br> => berfungsi untuk membuat baris baru
+<title></title> => berfungsi untuk membuat nama alamat browser
+<a> => untuk membuat link menuju website yang di tentukan(ibarat menyambungkan ke web lain)

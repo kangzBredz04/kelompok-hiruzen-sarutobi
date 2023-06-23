@@ -1,0 +1,90 @@
+.top-bar{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    padding: 5px;
+    background-color: rgb(47, 45, 45);
+    border-bottom: 5px solid salmon;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    align-items: center;
+}
+.top-bar h1{
+    text-indent: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f2e5e5;
+    text-shadow: -3px 3px 10px skyblue;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.side-top .halaman{
+    background-image: url(anwar.jpg);
+    width: 100px;
+    height: 100px;
+    float: right;
+    border-radius: 50%;
+    text-indent: -99999px;
+}
+.formulir{
+    width: 900px;
+    height: auto;
+    background-color: #eaeaea;
+    margin: 150px auto;
+    padding: 20px;
+}
+.formulir .header h1{
+    text-align: center;
+}
+.side-top a{
+    display: flex;
+    width: 100px;  
+}
+.isi p{
+    text-indent: 30px;
+    word-spacing: 5px;
+    line-height: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+.enter{
+    float: right;
+}
+.enter button{
+    padding: 10px;
+    border: 2px solid #f2e5e5;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+.dua{
+    background-color: rgb(223, 176, 115);
+}
+a:hover{
+    background-color: rgba(223, 176, 115,0.5);
+    color: rgba(16, 16, 16,0.5);
+}
+a:active{
+    text-decoration: underline;
+    font-style: italic;
+}
+a:visited{
+    color: red;
+}

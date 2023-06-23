@@ -1,0 +1,17 @@
+1.3 jenis website
+   - web toko online   : tokopedia,shopee
+   - web pendidikan    : ruang guru ,brainly
+   - web search engine : google,chat gpt
+   - web sosial media  : facebook,instagram,tik tok
+   - web olahraga      : fifa
+
+2. cara kerja website itu ada client memberikan pertanyaan dan server menerima dan memberikan 
+   respons kepada client
+
+
+3.-<p></p> fungsinya untuk membuat paragraf
+  -<hr> fungsinya untuk membuat garis horizontal
+  -<h></h> fungsinya untuk membuat heading 
+  -<title> fungsinya membuat judul
+  -<br> fungsinya membuat baris baru 
+ 

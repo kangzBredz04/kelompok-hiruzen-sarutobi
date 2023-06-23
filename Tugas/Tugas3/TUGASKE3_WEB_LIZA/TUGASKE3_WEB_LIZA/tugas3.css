@@ -1,0 +1,40 @@
+.menu{
+
+    background-color: rgb(177, 175, 175);
+    margin-top: -10px;
+    border-left: 10px solid rgb(174, 255, 0);
+    border-top :10px solid rgb(176, 136, 170);
+    border-right: 10px solid rgb(174, 255, 0);
+    border-bottom: 10px solid salmon;
+}
+
+.home{
+
+    background-color: rgb(177, 175, 175);
+    margin-top: -10px;
+    border-left: 10px solid rgb(174, 255, 0);
+    border-top :10px solid rgb(176, 136, 170);
+    border-right: 10px solid rgb(174, 255, 0);
+    border-bottom: 10px solid rgb(176, 136, 170);
+    }
+
+
+.cek2{
+    background-color: rgb(177, 175, 175);
+    margin-top: -10px;
+    border-left: 10px solid rgb(174, 255, 0);
+    border-top :10px solid rgb(176, 136, 170);
+    border-right: 10px solid rgb(174, 255, 0);
+    border-bottom: 10px solid rgb(176, 136, 170) ;
+ }
+
+
+.cek4{
+
+    background-color: rgb(177, 175, 175);
+    margin-top: -10px;
+    border-left: 10px solid rgb(174, 255, 0);
+    border-top :10px solid rgb(176, 136, 170);
+    border-right: 10px solid rgb(174, 255, 0);
+    border-bottom: 10px solid rgb(176, 136, 170);
+}

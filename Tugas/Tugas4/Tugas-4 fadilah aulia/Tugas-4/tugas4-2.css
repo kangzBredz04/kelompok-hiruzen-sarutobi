@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    font-style: initial;
+}
+table{
+    border: 3px solid black;
+    margin: 20px;
+    font-size: 18px;
+}
+.satu{
+   background-color: #BE6DB7;
+}
+.dua{
+    background-color: #FDD36A;
+}
+.tiga{
+    background-color: #DC8449;
+}
+.empat{
+    background-color: #d65792;
+}

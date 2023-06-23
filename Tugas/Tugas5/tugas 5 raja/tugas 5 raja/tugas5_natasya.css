@@ -1,0 +1,143 @@
+header , h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    background-color: cornflowerblue;
+}
+#jelom{
+    color: palevioletred;
+    background-color: bisque;
+    font-size: large;
+}
+#wapel, #tempel{
+    color: bisque;
+    background-color: palevioletred;
+    width: 30%;
+}
+#pel{
+    color: plum;
+    background-color: blanchedalmond;
+    font-size: large;
+}
+.lomba{
+    color: mediumslateblue;
+    background-color: pink;
+    
+}
+.waktu{
+    color: dodgerblue;
+    background-color: plum;
+    text-align: center;
+}
+.tempat{
+    color: darkviolet;
+    background-color: hotpink;
+}
+table{
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+
+}
+nav{
+    text-align: center;
+    align-items: center;
+    border: 2px solid powderblue;
+    background-color: powderblue;
+    display: block;
+    padding: 3px;
+    margin-top: 15px; 
+}
+footer{
+    text-align: center;
+    border: 2px solid powderblue;
+    background-color: powderblue;
+    align-items: center;
+}
+#kiri{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+#kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.cm, #back{
+    text-align: justify;
+    background-color: lightblue;
+
+}
+#warform{
+    
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    /* margin: 50px; */
+    background-color: pink;
+}
+#tal{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    gap: 36px;
+    border: 2px solid cornflowerblue;
+
+}
+.form{
+    display: grid;
+    grid-template-columns: 4fr 2fr 2fr;
+    gap: 36px;
+    border: 2px solid cornflowerblue;
+
+}
+.lom, .grup{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 36px;
+    border: 2px solid cornflowerblue;
+}
+.nama-lengkap, .nalom, .tempat, .tgl, .jk, .nohp, .alamat, .kelas, .namkel , .jumang{
+    display: flex;
+    flex-direction: column;
+    gap: 8px; 
+    padding: 2px;
+}
+input[type=text] ,select,  input[type=date], input[type=textarea]{
+    border: 2px solid palevioletred;
+    margin: 4px;
+    background-color: hotpink;
+}
+input[type=text]:focus , select, input[type=date]:focus, input[type=textarea]:focus{
+    border: 4px solid peachpuff;
+}
+button{
+    background-color: plum;
+    color: palevioletred;
+    padding: 16px
+}
+button:active{
+    background-color: hotpink;
+    color: cornflowerblue;
+}
+#but{
+    padding-top: 20px;
+}

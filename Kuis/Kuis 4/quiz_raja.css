@@ -1,0 +1,32 @@
+header {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+body {
+    margin: 0em;
+    padding: 1em;
+    text-align: justify;
+
+
+}
+
+section {
+
+    border: 7px solid burlywood;
+
+}
+
+article {
+    border: 2px solid chocolate;
+    background-color: blanchedalmond;
+    padding: 3em;
+}
+
+footer {
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 1em;
+    border: 2px solid blue;
+
+}

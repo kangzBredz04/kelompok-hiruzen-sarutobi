@@ -1,0 +1,57 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 96px 32px;
+  border: 2px solid black;
+  align-items: center;
+  margin-bottom: 8px;
+  background-color: burlywood;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  > li {
+    list-style: none;
+    > a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+  }
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 8px;
+
+  > section {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    background-color: aqua;
+    border: 2px solid black;
+
+    > article {
+      background-color: greenyellow;
+      padding: 4px;
+      border: 2px solid black;
+      > p{
+        text-align: justify;
+      }
+    }
+  }
+
+  > aside {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    > img {
+      width: 310px;
+      height: 500px;
+    }
+  }
+}

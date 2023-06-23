@@ -1,0 +1,102 @@
+.judul
+{
+    background-color: rgb(0, 174, 255);
+    border-radius: 16px;
+    padding: 1px 16px;
+}
+
+.baris-pertama
+{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+.baris-kedua
+{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+.baris-tiga{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+    
+}
+.baris-empat{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+.baris-lima{
+    display: grid;
+    grid-template-columns: 3px 2fr;
+    gap: 32px;
+}
+.baris-enam{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 32px;
+}
+.baris-tujuh{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 32px;
+}
+.baris-delapan{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 32px;
+}   
+
+
+.nama-lengkap , .nomor-identitas , .tempat , .tanggal, .jenis-kelamin,.agama,.warga,.nama-ibu,.no-telp,
+.email,.alamat,.pos,.provinsi,.kabupaten,.kecamatan,.pendidikan-terakhir,.nama-sekolah,.rata-nilai,.prodi-satu,.prodi-dua
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Alamat-pos{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 32px;
+}
+
+.email-no{
+    display:grid ;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+
+.warga-agama{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+
+.tempat-tanggal
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 32px;
+}
+input , select
+{
+    padding: 8px;
+    border-color: rgb(10, 164, 164);
+    border-radius: 4px;
+}
+.but button{
+    padding: 10px;
+    color: aliceblue;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+

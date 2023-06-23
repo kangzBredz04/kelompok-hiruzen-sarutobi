@@ -1,0 +1,65 @@
+body{
+    background-color: chocolate;
+}
+header{
+    background-color: azure;
+}
+nav{
+    background-color: brown;
+    color: blanchedalmond;
+    text-align:center;
+
+}
+.enhy{
+    width:22%;
+    height:1039px;
+    float:left;
+    padding:5px;
+    background-color: burlywood;
+}
+.enhy2{
+    width:22%;
+    height:1039px;
+    float:right;
+    padding:5px;
+    background-color: burlywood;
+}
+.bio{
+    
+    text-align:left;
+    margin-left:230px;
+    background-color: cornsilk;
+}
+.bioo{
+    text-align:left;
+    margin-left:365px;
+    background-color: cornsilk;
+}
+.pict{
+    text-align:left;
+    margin-left:190px;
+}
+.pres{
+    text-align:left;
+    margin-left:310px;
+    background-color: rosybrown;   
+}
+.peng{
+    
+    text-align:left;
+    margin-left:280px;
+    background-color: rosybrown;
+}
+.fak{
+    text-align:left;
+    margin-left:230px;
+    background-color: khaki;  
+}
+.fakme{
+    text-align:left;
+    margin-left:280px;
+    background-color: khaki;
+}
+footer{
+    background-color: antiquewhite;
+}

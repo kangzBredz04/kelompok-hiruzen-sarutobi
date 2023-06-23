@@ -1,0 +1,52 @@
+
+.container{
+    background-color: bisque;
+    color: rgb(255, 111, 0);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container2{
+    background-color: rgb(221, 192, 124);
+}
+.img-content{
+    display: flex;
+    margin-right: 50px;
+    width: 90px;
+}
+aside{
+    background-color: bisque;
+}
+.container3{
+    background-color:antiquewhite;
+}
+.data-diri{
+    background-color: antiquewhite;
+}
+.data-prestasi{
+    background-color: aquamarine;
+}
+.datsek{
+    background-color: rgb(154, 179, 201);
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+footer{
+    background-color: aqua;
+}
+.tugas2{
+    display: flex;
+    flex-direction: column;
+}
+hr{
+    width: 500px;
+}
+section{
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+}

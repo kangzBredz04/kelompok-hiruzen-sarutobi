@@ -1,0 +1,89 @@
+.img{
+    display: block;
+    margin-left: 130px;   
+}
+tr{
+    font-size: 19px;
+}
+nav{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    background-color: #085756;
+    width: 100%;
+}
+.menu{
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+}
+.kelola{
+    color: white;
+    margin: 15px;
+    padding-top: 20px;
+}
+.bio{
+    display: block;
+    text-align: center;
+    margin: 50px;
+}
+table,th,td{
+    border:1px solid;
+    gap: 5px;
+}
+td,th{
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    background-color: #FAF0E4;
+}
+.judul{
+    width: 490px;
+}
+.ling{
+    color: black;
+}
+#tab{
+    text-align: center;
+    margin-bottom: 50px;
+}
+body{
+    background-color: #F1C27B;
+}
+.lo{
+    text-align: right;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+#ket{
+    display: block;
+    font-size: 12px;
+    color: rgb(168, 160, 160);
+    margin-left: 20px;
+    padding-bottom: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+footer{
+    background-color: #085756;
+}
+.atas
+{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px 0;
+    grid-gap: 2px;
+   >p{
+    margin-right: 60px;
+    margin-top: 60px;
+   }
+    font-size:20px;
+    text-align: justify;
+}
+i{
+    margin-left: 70px;
+    font-size: 16px;
+}
+.cin{
+    text-align: left;
+    margin-left: 100px;
+}

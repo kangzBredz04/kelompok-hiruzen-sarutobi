@@ -1,0 +1,39 @@
+td{
+    padding: 20px;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+.pertama{
+    background-color: rgb(43, 41, 41);
+}
+.kedua{
+    background-color: aquamarine;
+}
+.edit{
+    background-color: brown;
+    border-radius: 5px;
+    padding: 10px;
+}
+.hapus{
+    background-color: salmon;
+    padding: 10px;
+    border-radius: 5px;
+}
+.tambah{
+    background-color: skyblue;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid skyblue;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border: 1px solid brown;
+}

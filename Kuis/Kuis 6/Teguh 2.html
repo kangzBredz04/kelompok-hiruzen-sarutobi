@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+        }
+
+        table th,
+        table td {
+
+            padding: 15px;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+        }
+
+        .content a {
+            text-decoration: none;
+            color: black;
+
+        }
+
+        .Edit {
+            background-color: aquamarine;
+
+        }
+
+        .hapus {
+            background-color: crimson;
+            color: white;
+        }
+
+        button {
+            border-radius: 3px;
+
+            padding: 5px;
+        }
+
+        th {
+            color: white;
+            background-color: rgb(29, 29, 71);
+        }
+
+        td {
+            color: white;
+            background-color: rgb(78, 78, 162);
+        }
+
+        .add {
+            background-color: rgb(86, 167, 248);
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Data mahasiswa universita nasional PASIM Bandung</h2>
+    </header>
+    <div class="content">
+        <table border="2px solid black">
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>nomor telepon</th>
+                <th colspan="2">aksi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Aisyah Romaito Siregar</td>
+                <td>Aisyah@gmail.com</td>
+                <td>082364701082</td>
+                <td><Button class="Edit"><a href="Teguh.html">Edit</a></Button></td>
+                <td><button class="hapus" onclick="confirm('Apakah anda akan menghapus data ini ?')">Hapus</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>anwar juniansyha harahap</td>
+                <td>anwar@gmail.com</td>
+                <td>082364701082</td>
+                <td><Button class="Edit"><a href="Teguh.html">Edit</a></Button></td>
+                <td><button class="hapus" onclick="confirm('Apakah anda akan menghapus data ini ?')">Hapus</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>fadilah aulia mutmainah</td>
+                <td>fadilah@gmail.com</td>
+                <td>082364701082</td>
+                <td><Button class="Edit"><a href="Teguh.html">Edit</a></Button></td>
+                <td><button class="hapus" onclick="confirm('Apakah anda akan menghapus data ini ?')">Hapus</button></td>
+            </tr>
+            <tr>
+                <th colspan="3">Total Siswa</th>
+                <th>3 orang</th>
+                <td colspan="2"><button class="add" onclick="prompt('tambah data')">tambah data</button></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

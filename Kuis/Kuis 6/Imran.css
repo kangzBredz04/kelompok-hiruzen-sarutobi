@@ -1,0 +1,38 @@
+td
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.satu
+{
+    background-color: rgb(18, 202, 243);
+}
+
+.dua
+{
+    background-color: rgb(8, 89, 62);
+}
+
+h1
+{
+    text-align: center;
+}
+
+table
+{
+    margin: auto;
+    border: 2px solid black;
+}
+
+body
+{
+    font-size: 23px;
+    text-shadow: white;
+}
+
+a
+{
+    background-color: rgb(243, 247, 239);
+    
+}

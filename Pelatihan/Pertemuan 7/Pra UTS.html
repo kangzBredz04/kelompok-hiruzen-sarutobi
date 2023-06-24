@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pra UTS</title>
+    <style>
+        fieldset {
+            margin: auto;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        input {
+            padding: 6px 16px;
+            border-radius: 4px;
+            border: 1px solid black;
+        }
+
+        input:focus {
+            background-color: gainsboro;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 8px;
+            border-radius: 6px;
+        }
+
+        button:hover {
+            background-color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pra Ujian Tengah Semester Pelatihan Web</h1>
+    <pre>
+        Hai Nama Saya Hiruzen Sarutobi
+        Saya kelompok 3 dalam pelatihan web
+        Saya berjumlahkan 9 Orang
+        1 orang instruktur dan 8 orang anak didik
+    </pre>
+    <!-- <table border="2" width="300px" height="200px" style="text-align: center;">
+        <tr>
+            <td colspan="2">1</td>
+            <td rowspan="2">2</td>
+            <td rowspan="2">3</td>
+            <td colspan="2">4</td>
+        </tr>
+        <tr>
+            <td rowspan="2">5</td>
+            <td>6</td>
+            <td>7</td>
+            <td rowspan="2">8</td>
+        </tr>
+        <tr>
+            <td colspan="2">9</td>
+            <td colspan="2">0</td>
+        </tr>
+    </table> -->
+
+    <form>
+        <fieldset>
+            <legend>Form Login</legend>
+            <label>
+                Username :
+                <input type="text" placeholder="Masukan Username">
+            </label>
+            <label>
+                Password :
+                <input type="password" placeholder="Masukan Password">
+            </label>
+            <button>Login</button>
+        </fieldset>
+    </form>
+
+    <div style="display: flex; flex-direction: row; gap: 8px;">
+        <p>Hello</p>
+        <p>World!</p>
+    </div>
+    <input type="text" placeholder="Coba susi" accesskey="s">
+    <button accesskey="w" contenteditable="true" title="buttom wahyu">Wahyu</button>
+    <p style="font-weight: 900; font-style: italic;">wahyu</p>
+    <a href="">saya</a>
+    <!-- <img src="../Asset/orang.jpeg" alt=""> -->
+    <picture>
+        <source media="(min-width : 650px)" srcset="../Asset/orang.jpeg">
+        <source media="(min-width : 150px)" srcset="../Asset/email.png">
+        <img src="../Asset/whatsapp.png" alt="">
+    </picture>
+</body>
+
+</html>

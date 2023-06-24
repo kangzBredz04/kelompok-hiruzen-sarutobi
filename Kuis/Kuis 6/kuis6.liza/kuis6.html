@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Edit</title>
+    <style>
+        * {
+            color: black;
+            text-decoration: none;
+        }
+
+        form {
+            border: 2px solid black;
+            width: 650px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            background-color: #BAD7E9;
+
+            & h2 {
+                text-align: center;
+            }
+
+            & .atas {
+                display: flex;
+                justify-content: space-between;
+                margin-inline: 8px;
+            }
+
+            & .bawah {
+                width: auto;
+                margin-inline: 8px;
+                margin-bottom: 16px;
+
+                & input[type=email] {
+                    width: 530px;
+                }
+            }
+
+            & input[type=text],
+            input[type=number],
+            input[type=email] {
+                padding: 8px 24px;
+                border-radius: 6px;
+                border: none;
+            }
+
+            & label {
+                display: flex;
+                gap: 16px;
+                align-items: center;
+            }
+
+            & .buttons {
+                display: flex;
+                gap: 16px;
+                margin-left: 60px;
+                margin-bottom: 16px;
+
+                & button {
+                    width: 96px;
+                    height: 32px;
+                    border: none;
+                    border-radius: 6px;
+                    color: white;
+                    > a{
+                        color: white;
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <div class="title-form">
+            <h2>Edit Form</h2>
+        </div>
+        <div class="atas">
+            <label for="">
+                Nama
+                <input type="text" placeholder="Masukan Nama">
+            </label>
+            <label for="">
+                Nomor Telepon
+                <input type="number" placeholder="Masukan Nomor Telepon">
+            </label>
+        </div>
+        <div class="bawah">
+            <label for="">Email
+                <input type="email" placeholder="Masukan Email">
+            </label>
+        </div>
+        <div class="buttons">
+            <button style="background-color: #0079FF; cursor: pointer;"
+                onclick="alert('Selamat Data Berhasil Di Update')">Update</button>
+            <button style="background-color: #DF2E38;"><a href="data.html">Kembali</a></button>
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis 3</title>
+    <style>
+        *{
+            text-decoration: none
+        }
+        header{
+            text-align: center;
+        }
+        td{
+            padding: 10px;
+            background-color: #A1C2F1;
+            color: white;
+        }
+        th{
+            text-align: center;
+            padding: 10px;
+            background-color: #0A6EBD;
+            color: white;
+        }
+        table{
+            margin: auto;
+        }
+        .warna3{
+            background-color: rgb(53, 166, 242);
+        }
+        .warna2{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <header><h2>Data Mahasiswa Universitas Nasional PASIM Bandung</h2></header>
+    <table border="3px">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Email</th>
+                <th>Nomor Telepon</th>
+                <th colspan="2">Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>1</td>
+            <td>Aisyah Romaito Siregar</td>
+            <td>aisyah@gmail.com</td>
+            <td>08123445656</td>
+            <td><button class="warna"><a href="edit_form.html" target="_blank">Edit</a></button></td>
+            <td><button class="warna2" onclick="confirm('Apakah anda akan menghapus data ini ?')">Hapus</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Teguh Ahmadi Zebua</td>
+            <td>teguh@gmail.com</td>
+            <td>08080183783</td>
+            <td><button class="warna"><a href="edit_form.html" target="_blank">Edit</a></button></td>
+            <td><button class="warna2" onclick="confirm('Apakah anda akan menghapus data ini ?')">Hapus</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Imran Sihaloho</td>
+            <td>imran@gmail.com</td>
+            <td>08137465567</td>
+            <td><button class="warna" ><a href="edit_form.html" target="_blank">Edit</a></button></td>
+            <td><button class="warna2" onclick="confirm('Apakah anda akan menghapus data ini ?')">Hapus</button></td>
+        </tr>
+        <tr>
+            <th colspan="3">Total Siswa</th>
+            <th>3 Orang</th>
+            <th colspan="2" style="margin: auto;"><button class="warna3" onclick="prompt('Masukan Nama : ')">Tambah Data</button></th>
+        </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis 6</title>
+</head>
+<style>
+
+table{
+    margin: 20px;
+    margin: auto;
+    width: 700px;
+    height: 90px;
+    
+}
+button{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+th{
+    background-color: teal;
+}
+td{
+   background-color: rgb(81, 166, 166); 
+   padding: auto;
+   margin: auto;
+}
+</style>
+<body>
+    <header>
+        <h2 align="center">Data Mahasiswa Universitas Nasional Pasim PASIM Bandung</h2>
+    </header>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Email</th>
+            <th>Nomor Telepon</th>
+            <th colspan="2">Aksi</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Aisyah Romaito Siregar</td>
+            <td>aisyah@gmail.com</td>
+            <td>080123456789</td>
+            <td><button><a href="kuis-one.html">Edit</a></button></td>
+            <td>                
+                <button onclick="confirm('Apakah anda akan menghapus data ini ?')" class="end">Hapus</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Fadilah Aulia Muthmainah</td>
+            <td>fadilah@gmail.com</td>
+            <td>080123456789</td>
+            <td><button><a href="kuis-one.html">Edit</a></button></td>
+            <td>                
+                <button onclick="confirm('Apakah anda akan menghapus data ini ?')" class="end">Hapus</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Susi Haryati Hutasuhut</td>
+            <td>susi@gmail.com</td>
+            <td>080123456789</td>
+            <td><button><a href="kuis-one.html">Edit</a></button></td>
+            <td>                
+                <button onclick="confirm('Apakah anda akan menghapus data ini ?')" class="end">Hapus</button>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="3">Total Siswa</th>
+            <th>3 Orang</th>
+            <th colspan="2">
+                <button onclick="prompt('Masukan Nama : ')" >Tambah Data</button>
+            </th>
+        </tr>
+    </table>
+
+</body>
+</html>

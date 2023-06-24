@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nanat</title>
+  <style>
+    table ,td{
+      margin: auto;
+      height: 20px;
+      width: 10px;
+    }
+    h1 , thead , button{
+      background-color: pink;
+      text-align: center;
+    }
+    #satu , #dua , #tiga{
+      margin: auto;
+      background-color: powderblue;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Data Mahasiswa Universitas Nasional PASIM Bandung</h1>
+  <table border="3">
+    <thead>
+      <th id="no">No</th>
+      <th id="nama" colspan="3">Nama</th>
+      <th id="email" colspan="2">Email</th>
+      <th id="notel" >No Telepon</th>
+      <th id="aksi" colspan="2">Aksi</th>
+    </thead>
+    <tbody>
+      <tr id="satu">
+        <td>1</td>
+        <td colspan="3">Raja Salsabilla Annatasya</td>
+        <td colspan="2">kinanaca@gmail.com</td>
+        <td>081256865456</td>
+        <td><a href="quiz_6.html"></a><button onclick="alert('Selamat Data Berhasil Di Update')"
+            class="awal">Edit</button></td>
+        <td><button onclick="confirm('Apakah anda akan menghapus data ini ?')" class="end">Hapus</button></td>
+      </tr>
+
+    </tbody>
+    <tbody>
+      <tr id="dua">
+        <td>2</td>
+        <td colspan="3">Siti Nurhaliza Sitanggang</td>
+        <td colspan="2">sisititti@gmail.com</td>
+        <td>081256868976</td>
+        <td><a href="quiz_6.html"></a><button onclick="alert('Selamat Data Berhasil Di Update')"
+            class="awal">Edit</button></td>
+        <td><button onclick="confirm('Apakah anda akan menghapus data ini ?')" class="end">Hapus</button></td>
+      </tr>
+
+    </tbody>
+    <tbody>
+      <tr id="tiga">
+        <td colspan="4">Total siswa</td>
+        <td>3 orang</td>
+        <td><button onclick="prompt('Masukan Nama : ')" class="tambah">Simpan</button></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

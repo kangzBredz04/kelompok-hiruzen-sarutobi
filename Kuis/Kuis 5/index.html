@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis 6</title>
+    <link rel="stylesheet" href="styel.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Data Mahasiswa Universitas Nasional PASIM Bandung</h1>
+    </header>
+    <main>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Nomor Telepon</th>
+                    <th colspan="2">Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Aisyah Romaito Siregar</td>
+                    <td>aisyah@gmail.com</td>
+                    <td>080123456789</td>
+                    <td class="td-button">
+                        <button class="btn-edit">
+                            <img src="edit.png" alt="">
+                            <a href="Edit.html">Edit</a>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn-hapus" onclick="confirm('Apakah anda akan menghapus data ini ?')"><img
+                                src="delete.png" alt="">
+                            <p>Hapus</p>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Anwar Juniansyah Harahap</td>
+                    <td>anwar@gmail.com</td>
+                    <td>080123456789</td>
+                    <td class="td-button">
+                        <button class="btn-edit">
+                            <img src="edit.png" alt="">
+                            <a href="Edit.html">Edit</a>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn-hapus" onclick="confirm('Apakah anda akan menghapus data ini ?')"><img
+                                src="delete.png" alt="">
+                            <p>Hapus</p>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Fadillah Aulia Mutmainah</td>
+                    <td>fadillah@gmail.com</td>
+                    <td>080123456789</td>
+                    <td class="td-button">
+                        <button class="btn-edit">
+                            <img src="edit.png" alt="">
+                            <a href="Edit.html">Edit</a>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="btn-hapus" onclick="confirm('Apakah anda akan menghapus data ini ?')"><img
+                                src="delete.png" alt="">
+                            <p>Hapus</p>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" bgcolor="#27374D">
+                        <h2 align="center">Total Siswa</h2>
+                    </td>
+                    <td bgcolor="#27374D">
+                        <h2>3 Orang</h2>
+                    </td>
+                    <td colspan="2">
+                        <button style="background-color: #00C4FF; " onclick="prompt('Masukan Nama : ')" class="add-data">
+                            <img src="add-user.png">
+                            <p>Tambah Data</p>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>

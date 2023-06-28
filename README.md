@@ -34,25 +34,25 @@
 
 ## Nilai Tugas Kelompok Hiruzen Sarutobi
 
-| No  | Nama                      | Tugas 1 | Tugas 2 | Tugas 3 | Tugas 4 | Tugas 5 |
-| --- | ------------------------- | ------- | ------- | ------- | ------- | ------- |
-| 1   | Aisyah Romaito Siregar    | 100     | 100     | 100     | 100     | 100     |
-| 2   | Anwar Juniansyah Harahap  | 100     | 100     | 80      | 100     | 100     |
-| 3   | Fadillah Aulia Mutmainah  | 100     | 100     | 100     | 80      | 100     |
-| 4   | Imran Sihaloho            | 100     | 100     | 100     | 100     | 100     |
-| 5   | Raja Salsabilla Annatasya | 100     | 100     | 100     | 100     | 100     |
-| 6   | Sitinurhaliza Sitanggang  | 100     | 100     | 90      | 90      | 100     |
-| 7   | Susi Haryati Hutasuhut    | 100     | 100     | 100     | 100     | 100     |
-| 8   | Teguh Ahmadi Zebua        | 100     | 100     | 100     | 100     | 100     |
+| No  | Nama                      | Tugas 1 | Tugas 2 | Tugas 3 | Tugas 4 | Tugas 5 | Tugas 6 | Tugas 7 |
+| --- | ------------------------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
+| 1   | Aisyah Romaito Siregar    | 100     | 100     | 100     | 100     | 100     | 90      | 80      |
+| 2   | Anwar Juniansyah Harahap  | 100     | 100     | 80      | 100     | 100     | 90      | 80      |
+| 3   | Fadillah Aulia Mutmainah  | 100     | 100     | 100     | 80      | 100     | 90      | 80      |
+| 4   | Imran Sihaloho            | 100     | 100     | 100     | 100     | 100     | 90      | 80      |
+| 5   | Raja Salsabilla Annatasya | 100     | 100     | 100     | 100     | 100     | 90      | 80      |
+| 6   | Sitinurhaliza Sitanggang  | 100     | 100     | 90      | 90      | 100     | 90      | 80      |
+| 7   | Susi Haryati Hutasuhut    | 100     | 100     | 100     | 100     | 100     | 90      | 80      |
+| 8   | Teguh Ahmadi Zebua        | 100     | 100     | 100     | 100     | 100     | 90      | 80      |
 
 ## Nilai Kuis Kelompok Hiruzen Sarutobi
 | No  | Nama                      | Kuis 1 | Kuis 2 | Kuis 3 | Kuis 4 | Kuis 5 | Kuis 6 | Kuis 7 |
 | --- | ------------------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| 1   | Aisyah Romaito Siregar    | 100    | 100    | 100    | 100    | 80     | 90     | 88     |
-| 2   | Anwar Juniansyah Harahap  | 100    | 100    | 100    | 100    | 80     | 90     | 91     |
-| 3   | Fadillah Aulia Mutmainah  | 100    | 100    | 100    | 100    | 80     | 90     | 99     |
-| 4   | Imran Sihaloho            | 100    | 100    | 100    | 100    | 80     | 90     | 89     |
-| 5   | Raja Salsabilla Annatasya | 100    | 100    | 100    | 100    | 80     | 80     | 80     |
-| 6   | Sitinurhaliza Sitanggang  | 100    | 90     | 100    | 100    | 80     | 90     | 80     |
-| 7   | Susi Haryati Hutasuhut    | 100    | 100    | 100    | 100    | 80     | 90     | 80     |
-| 8   | Teguh Ahmadi Zebua        | 100    | 100    | 100    | 100    | 80     | 90     | 91     |
+| 1   | Aisyah Romaito Siregar    | 100    | 100    | 83     | 85     | 82     | 88     | 88     |
+| 2   | Anwar Juniansyah Harahap  | 100    | 100    | 80     | 88     | 81     | 89     | 91     |
+| 3   | Fadillah Aulia Mutmainah  | 100    | 100    | 81     | 87     | 80     | 90     | 99     |
+| 4   | Imran Sihaloho            | 100    | 100    | 88     | 80     | 86     | 84     | 89     |
+| 5   | Raja Salsabilla Annatasya | 100    | 100    | 82     | 86     | 88     | 82     | 80     |
+| 6   | Sitinurhaliza Sitanggang  | 100    | 90     | 84     | 84     | 89     | 81     | 80     |
+| 7   | Susi Haryati Hutasuhut    | 100    | 100    | 87     | 81     | 81     | 89     | 80     |
+| 8   | Teguh Ahmadi Zebua        | 100    | 100    | 80     | 88     | 84     | 86     | 91     |

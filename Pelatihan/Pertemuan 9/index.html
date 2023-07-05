@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan Ke 9</title>
+    <style>
+        /* div {
+            width: 50px;
+            height: 50px;
+            margin: auto;
+        }
+
+        .satu {
+            background-color: red;
+        }
+
+        .dua {
+            background-color: chartreuse;
+            position: relative;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            position: fixed;
+        }
+
+        .tiga {
+            background-color: blue;
+        }
+
+        .container {
+            height: 150px;
+            width: 150px;
+            border: 3px solid orange;
+            margin: 0 auto;
+            position: relative;
+        } */
+
+        .container {
+            width: 475px;
+            border: 2px solid black;
+            margin: 10px auto;
+            padding: 2px;
+            /* box-sizing: border-box; */
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+        }
+
+        .container div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            margin: 2px;
+        }
+
+        .container div.tiga {
+            flex-grow: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+        <div class="empat">4</div>
+    </div>
+</body>
+
+</html>

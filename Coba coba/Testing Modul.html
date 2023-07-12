@@ -1,0 +1,125 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // let car = "Mobil Fiat"
+        // let car = {
+        //     type : "Fiat",
+        //     model : "500",
+        //     color : "white"
+        // }
+        let car = {
+            // Properti (Variabel)
+            type: "Fiat",
+            model: "500",
+            color: "white",
+
+            // Method (Fungsi)
+            start: function () {
+                console.log("Ini adalah method Start")
+            },
+            drive: function () {
+                console.log("Ini adalah method Drive")
+            },
+            brake: function () {
+                console.log("Ini adalah method Brake")
+            },
+            stop: function () {
+                console.log("Ini adalah method Stop")
+            }
+        }
+
+        console.log(car.type)
+        console.log(car.color)
+
+        car.start()
+        car.drive()
+        
+        let anakPub = {
+            // Properti (Identitas Objek)
+            name: "Wabredz",
+            age: 20,
+            address: "Kota Banjar",
+
+            // Method (Perilaku Objek)
+            makan: function () {
+                console.log("Wabred'z Makan Nasi PUB")
+            },
+            ngoding: function () {
+                console.log("Wabredz Ngoding HTML, CSS & Javascript")
+            },
+            suka: function () {
+                console.log("Wabredz Suka Kamu <3 ")
+            }
+        }
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Objek Dalam Javascript</title>
+    <script>
+        let anakPub = {
+            namaDepan: "Wahyu",
+            namaBelakang: "Jebredz",
+            tampilNama: function () {
+                alert(`Nama Lengkap Saya ${this.namaDepan} ${this.namaBelakang}`)
+            }
+        }
+
+        let anakPub2 = {
+            namaDepan: "Dimun",
+            namaBelakang: "Permana",
+            tampilNama: function () {
+                alert(`Nama Lengkap Saya ${this.namaDepan} ${this.namaBelakang}`)
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Objek Dalam Javascript</title>
+    <script>
+        class Person {
+            name;
+
+            constructor(name) {
+                this.name = name;
+            }
+
+            introduceSelf() {
+                console.log(`Hi! I'm ${this.name}`);
+            }
+        }
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

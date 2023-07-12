@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="tampil()">Klik Dong Mas</button>
+    <script>
+        let tampil = function () {
+            alert("Yeyyy Kena Klik")
+        }
+        let buah = ["Tanjung", "Hafiz", "Apel", "Mangga", "Liza", "Durian", "Wahyu", "Jebredz"]
+        // buah[1] = 'Raja'
+        // buah.push("Nanas")
+        // delete buah[2]
+        // buah.pop()
+        // buah.push('Imran')
+        // buah.push('Aisyah')
+        // buah.shift()
+        // buah.splice(1,1)
+        // buah.shift("Mangga", "Durian")
+        buah.splice(0, 2)
+        let angka = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+        let angkaGanjil = angka.filter((n) => n % 2 == 1)
+        let angkaGenap = angka.filter((n) => n % 2 == 0)
+
+        // let angkaGanjil = angka.filter(function (n) {
+        //     return n % 2 == 1
+        // })
+
+        let calonPresiden = ["Abdul Hafiz Tanjung", "Prabowo", "Ganjar", "Anies"]
+        let hasil = calonPresiden.includes("Liza")
+        let hasil2 = calonPresiden.includes("Abdul Hafiz Tanjung")
+
+        let angka2 = [10, 2, 5, 21, 19, 69, 14, 8, 100]
+        // let hasilSorting = angka2.sort();
+        // let numbers = [9, 15, 10, 19, 11, 2];
+        // numbers.sort((i, j) => { return 1 - Math.random() });
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        // CREATE
+        // Buat Objek Baru
+        let peoples = [
+            {
+                id: 1,
+                name: "Wahyu",
+                age: 20,
+                height: 170,
+                address: "Kota Banjar"
+            },
+            {
+                id: 2,
+                name: "Dimas Firmansyah",
+                age: 20,
+                height: 171,
+                address: "Kota Banjar"
+            },
+            {
+                id: 3,
+                name: "Anggi Permana",
+                age: 21,
+                height: 165,
+                address: "Kabupaten Pangandaran"
+            }
+        ]
+        console.log(peoples)
+
+        // Tambah Objek Baru Dari Depan
+        let people1 = {
+            id: 4,
+            name: "Fadli Faturrahman",
+            age: 21,
+            height: 165,
+            address: "Kabupaten Cirebon"
+        }
+        peoples.unshift(people1)
+        console.log(peoples)
+
+        // Tambah Objek Baru Dari Belakang
+        let people2 = {
+            id: 5,
+            name: "Maulina Inasnasya",
+            age: 21,
+            height: 160,
+            address: "Kabupaten Ciamis"
+        }
+        peoples.push(people2)
+        console.log(peoples)
+
+        // Tambah Objek Baru Berdasarkan Indek
+
+        let people3 = {
+            id: 6,
+            name: "Peni Julianti",
+            age: 21,
+            height: 160,
+            address: "Kabupaten Ciamis"
+        }
+        // Cara pertama
+        peoples[2] = people3
+
+        // Cara Kedua
+        // splice (indek dimana akan ditambahkan, 
+        // banyaknya data yang akan dihapus/bisa di 0 kan, data yang akan ditambahkan)
+        peoples.splice(2, 0, people3)
+        console.log(peoples)
+
+
+        // READ
+        // Pake Method Map() => membuat array baru
+        peoples.map((p) => console.log(p))
+
+        // Pake Method Filter() => membuat array baru berdasarkan kondisi
+        const filterId = peoples.filter((p) => p.id > 3)
+        console.log(filterId)
+
+        peoples.pop()
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let mahasiswa = {
+            nim: "01022111023",
+            nama: "Wahyu",
+            prodi: "S1 Akuntansi",
+            lahir: {
+                tanggal: "04 Maret 2003",
+                tempat: "Banjar"
+            },
+            favorit: ["Coding", "Traveling", {
+                olahraga: ["Futsal", "Badminton"],
+                makanan: ["Mie", "Yang manis-manis kayak kamu"]
+            }],
+            alamat: {
+                jalan: "Jl. Dewi Sartika",
+                gang: "Gang Hidayah",
+                kelurahan: "Banjar",
+                kecamatan: "Banjar",
+                kota: "Banjar",
+                provins: "Jawa Barat",
+                kodePos: 46311
+            }
+        }
+
+        console.log(mahasiswa.nama)
+        // hasilnya Wahyu
+        console.log(mahasiswa.lahir.tanggal)
+        // hasilnya 04 Maret 2003
+        console.log(mahasiswa.favorit[2].makanan[1])
+        // hasilnya Yang manis-manis kayak kamu
+
+
+        // Buat function dengan isi objek
+        function buatObjekMahasiswa(nim, nama, fakultas, prodi) {
+            let mhs = {}
+            mhs.nim = nim
+            mhs.nama = nama
+            mhs.fakultas = fakultas
+            mhs.prodi = prodi
+            return mhs
+        }
+
+        // Pengisian data objek dengan memanggil function buatObjekMahasiswa
+        // dengan isi argumen menyesuaikan urutan parameter function
+        let dataMhs = buatObjekMahasiswa("01022111023", "Wahyu", "Ekonomi", "S1 Akuntansi")
+
+        // Mencetak isi objek
+        console.log(dataMhs)
+
+        // Hasilnya :
+        // {nim: '01022111023', nama: 'Wahyu', fakultas: 'Ekonomi', prodi: 'S1 Akuntansi'}
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

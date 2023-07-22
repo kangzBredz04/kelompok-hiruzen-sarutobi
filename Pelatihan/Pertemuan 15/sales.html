@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <img src="" alt="" class="gambar-produk">
+        <div class="data-produk">
+            <p class="nama-produk"></p>
+            <p class="brand-produk"></p>
+            <p class="jenis-produk"></p>
+            <p class="harga-produk"></p>
+            <p class="desk-produk"></p>
+        </div>
+    </div>
+    <script>
+        // Mengakses elemen menggunakan querySelector
+        const gambar = document.querySelector(".gambar-produk")
+        const nama = document.querySelector(".nama-produk")
+        const brand = document.querySelector(".brand-produk")
+        const jenis = document.querySelector(".jenis-produk")
+        const harga = document.querySelector(".harga-produk")
+        const desk = document.querySelector(".desk-produk")
+
+        // Mendaptakan nilai/value dari localstorage berdasarkan key yang dibuat 
+        // pas kita klik di halaman index.html
+        // gambar.setAttribute(`src = ${localStorage.getItem("Image")}`)
+        nama.textContent = localStorage.getItem("Nama")
+        brand.textContent = localStorage.getItem("Brand")
+        jenis.textContent = localStorage.getItem("Jenis")
+        harga.textContent = localStorage.getItem("Harga")
+        desk.textContent = localStorage.getItem("Deskripsi")
+    </script>
+</body>
+
+</html>

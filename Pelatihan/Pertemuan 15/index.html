@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="container"></div>
+
+    <!-- <img src="" alt=""> -->
+    <script>
+        // fetch('https://dummyjson.com/products')
+        //     .then(res => res.json())
+        //     .then(json => {
+        //         const data = json.products;
+        //         console.log(data)
+        //         data.map((d, i) => {
+        //             const container = document.querySelector(".container")
+        //             // const brand = document.createElement('p')
+        //             // brand.textContent = d.brand
+        //             // // console.log(d.brand)
+        //             // // document.write(d.brand)
+        //             // // Cara nampilin gambarw
+        //             // const img = document.createElement('img')
+        //             // img.src = d.images[1]
+        //             // container.appendChild(img)
+
+        //             // Membuat elemen
+        //             const image = document.createElement("img")
+        //             const namaProduk = document.createElement("h3")
+        //             const hargaProduk = document.createElement("p")
+
+        //             // Mengisi konten atau data kedalam variabel atau tag yang sudah dibikin
+        //             image.src = d.images[0]
+        //             namaProduk.textContent = d.title
+        //             hargaProduk.textContent = d.price
+
+        //             const card = document.createElement("div")
+        //             card.classList.add("card")
+        //             card.appendChild(image)
+        //             card.appendChild(namaProduk)
+        //             card.appendChild(hargaProduk)
+
+        //             document.body.appendChild(card)
+        //         })
+        //     })
+
+        // const produkBestSeller = [2, 6, 9, 29, 15]
+        // produkBestSeller.map((best) => {
+        //     fetch('https://dummyjson.com/products')
+        //         .then(res => res.json())
+        //         .then(json => {
+        //             const data = json.products;
+        //             const container = document.querySelector(".container")
+        //             // const brand = document.createElement('p')
+        //             // brand.textContent = d.brand
+        //             // // console.log(d.brand)
+        //             // // document.write(d.brand)
+        //             // // Cara nampilin gambarw
+        //             // const img = document.createElement('img')
+        //             // img.src = d.images[1]
+        //             // container.appendChild(img)
+
+        //             // Membuat elemen
+        //             const image = document.createElement("img")
+        //             const namaProduk = document.createElement("h3")
+        //             const hargaProduk = document.createElement("p")
+
+        //             // Mengisi konten atau data kedalam variabel atau tag yang sudah dibikin
+        //             image.src = data[best].images[0]
+        //             namaProduk.textContent = data[best].title
+        //             hargaProduk.textContent = data[best].price
+
+        //             const card = document.createElement("div")
+        //             card.classList.add("card")
+        //             card.appendChild(image)
+        //             card.appendChild(namaProduk)
+        //             card.appendChild(hargaProduk)
+
+        //             document.body.appendChild(card)
+
+        //         })
+        // })
+
+        fetch('https://dummyjson.com/products')
+            .then(res => res.json())
+            .then(json => {
+                const data = json.products;
+                console.log(data)
+                data.map((d, i) => {
+                    const container = document.querySelector(".container")
+                    // const brand = document.createElement('p')
+                    // brand.textContent = d.brand
+                    // // console.log(d.brand)
+                    // // document.write(d.brand)
+                    // // Cara nampilin gambarw
+                    // const img = document.createElement('img')
+                    // img.src = d.images[1]
+                    // container.appendChild(img)
+
+                    // Membuat elemen
+                    const image = document.createElement("img")
+                    const namaProduk = document.createElement("h3")
+                    const hargaProduk = document.createElement("p")
+                    const stokProduk = document.createElement("p")
+                    // const tamp
+                    const card = document.createElement("div")
+                    const link = document.createElement("a")
+
+                    // Menambahkan class kedalam elemet
+                    image.classList.add("product-image")
+                    namaProduk.classList.add("product-name")
+                    hargaProduk.classList.add("product-price")
+                    stokProduk.classList.add("product-stock")
+                    card.classList.add("product-card")
+                    link.classList.add("product-list")
+
+                    // Mengisi konten atau data kedalam variabel atau tag yang sudah dibikin
+                    image.src = d.thumbnail
+                    namaProduk.textContent = d.title
+                    hargaProduk.textContent = "Price : $" + d.price
+                    stokProduk.textContent = "Stock : " + d.stock + " pcs"
+
+                    // Membuat event click pada produk dan akan memunculkan data produk secara detail pada halaman berbeda
+                    card.addEventListener('click', (e) => {
+                        e.preventDefault()
+                        // Menyimpan data yang di klik kedalam localstorage (setItem)
+                        localStorage.setItem("Brand", d.brand)
+                        localStorage.setItem("Jenis", d.category)
+                        localStorage.setItem("Deskripsi", d.description)
+                        localStorage.setItem("Harga", d.price)
+                        localStorage.setItem("Nama", d.title)
+                        localStorage.setItem("Image", d.images[0])
+                        link.target = "_self"
+                        link.href = "sales.html"
+                    })
+                    link.appendChild(image)
+                    link.appendChild(namaProduk)
+                    link.appendChild(hargaProduk)
+                    link.appendChild(stokProduk)
+                    card.appendChild(link)
+                    container.appendChild(card)
+                })
+            })
+    </script>
+</body>
+
+</html>

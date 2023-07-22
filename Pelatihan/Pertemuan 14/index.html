@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 14</title>
+</head>
+
+<body>
+    <div id="container1">Ini adalah elemen div dengan id con tainer1</div>
+    <div class="container2">Ini adalah elemen div dengan class container2</div>
+    <h1>Ini adalah elemen heading 1</h1>
+    <div class="container3">Ini adalah elemen div dengan class container3</div>
+    <div id="container4">Ini adalah elemen div dengan class container4</div>
+    <div id="container4">Ini adalah elemen div dengan class container4</div>
+
+    <div class="parent-container"></div>
+
+    <button class="my-button1">Button 1</button>
+    <button onclick="alert('Tombol Telah Di Klik')" class="my-button2">Button 2</button>
+    <button onclick="buttonClick()" class="my-button3">Button 3</button>
+
+    <h1 class="keydown"></h1>
+    <h1 class="pressed"></h1>
+    <h1 class="keyup"></h1>
+
+
+    <label for="fruit">Pilih buah favorit:</label>
+    <select id="fruit" onchange="showSelectedFruit()">
+        <option value="apple">Apel</option>
+        <option value="banana">Pisang</option>
+        <option value="orange">Jeruk</option>
+    </select>
+
+    <form onsubmit="return validateForm()">
+        <label for="username">
+            Username
+            <input type="text" name="username">
+        </label>
+        <label for="password">
+            Password
+            <input type="password" name="password">
+        </label>
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Alasan Penambahan tag script dibawah semua elemen html -->
+
+    <!-- Kode HTML diuraikan dari atas ke bawah, jadi tag skrip harus muncul 
+        setelah semua elemen DOM yang perlu diakses.-->
+
+    <!-- Jadi baik penggunaan tag script internal ataupun eksternal
+        cara memanggil nya setelah pembuatan semua elemen HTML -->
+    <script>
+        // AKSES ELEMEN MENGGUNAKAN DOM
+        // Cara mengakses elemen menggunakan id
+        let container1 = document.getElementById("container1")
+
+        // Cara mengakses elemen menggunakan class
+        const container2 = document.getElementsByClassName("container2")
+
+        // Cara mengakses elemen menggunakan nama tag
+        const heading1 = document.getElementsByTagName("h1")
+
+        // Cara mengakses elemen berdasarkan selector CSS
+        const container3 = document.querySelector(".container3")
+
+        // Cara mengakses semua elemen yang cocok dengan selector yang diberikan'
+        const container4 = document.querySelectorAll("#conatainer4")
+
+        // MEMBUAT ELEMEN, MENGISI KONTEN ELEMEN DAN MENAMBAHKAN ELEMEN KEDALAM ELEMEN MENGGUANAKAN DOM
+        // Membuat elemen
+        const newDiv = document.createElement("div")
+        // Mengisi konten elemen
+        newDiv.textContent = "Tag Div Baru"
+        // Mengakses elemen div dengan class parent-container menggunakan DOM
+        let parentContainer = document.querySelector(".parent-container")
+        // Menambahakn div baru kedalam div dengan class parent-container
+        parentContainer.appendChild(newDiv)
+
+        // MENGHAPUS ELEMEN HTML
+        container3.remove()
+
+        // MEMANIPULASI CSS
+        // Mengubah properti style/css
+        newDiv.style.backgroundColor = "orange"
+        newDiv.style.padding = "12px"
+
+        // Menambahkan atau menghapus class dalam elemen HTML
+        // Menambahkan class
+        newDiv.classList.add("new-div")
+        // Menghapus class
+        newDiv.classList.remove("new-div")
+
+        // Menggunakan inline style
+        newDiv.setAttribute('style', 'color: blue; text-decoration: underline;');
+
+        // EVENT
+        // Event Klik
+        const myButton1 = document.querySelector(".my-button1")
+        myButton1.addEventListener("click", () => alert("Tombolnya Di Klik"))
+        function buttonClick() {
+            alert('Button 3 Di Klik')
+        }
+
+        // Event Mouse
+        const btn1 = document.querySelector(".my-button1")
+        const btn2 = document.querySelector(".my-button2")
+        const btn3 = document.querySelector(".my-button3")
+
+        btn1.addEventListener("mouseenter", function (event) {
+            event.target.innerText = "Mouse sudah masuk"
+        })
+        btn2.addEventListener("mouseout", function (event) {
+            event.target.innerText = "Mouse sudah keluar";
+        });
+        btn3.addEventListener("mouseover", function (event) {
+            event.target.innerText = "Mouse sudah di atas elemen";
+        });
+
+
+        // Event Keyboard
+        const keydown = document.querySelector(".keydown");
+        const pressed = document.querySelector(".pressed");
+        const keyup = document.querySelector(".keyup");
+        document.addEventListener("keydown", function (event) {
+            keydown.innerText = `menekan: ${event.key}`;
+        });
+        document.addEventListener("keypress", function (event) {
+            pressed.innerText = `menahan: ${event.key}`;
+        });
+        document.addEventListener("keyup", function (event) {
+            keyup.innerText = `melepas: ${event.key}`;
+        });
+
+        // Event Change
+        function showSelectedFruit() {
+            let selectedFruit =
+                document.getElementById("fruit").value;
+            console.log("Buah favorit Kita: " + selectedFruit);
+        }
+
+        // Event Submit
+        function validateForm() {
+            let username =
+                document.getElementsByName("username")[0].value;
+            let password =
+                document.getElementsByName("password")[0].value;
+            // Mencegah pengiriman formulir jika ada masukan yang kosong.
+            if (username === "" || password === "") {
+                alert("Isi semua kolom sebelum mengirimkan formulir");
+                return false;
+            }
+            // Lanjutkan pengiriman formulir jika validasi berhasil
+            return true;
+        }
+
+    </script>
+</body>
+
+</html>

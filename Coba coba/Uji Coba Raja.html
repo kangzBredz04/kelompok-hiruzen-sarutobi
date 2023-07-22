@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        const container = document.querySelector(".container")
+        fetch("https://api-berita-indonesia.vercel.app/antara/dunia/", {
+            method: 'GET',
+        }).then(response => response.json())
+            .then(res => {
+                // Mengambil data yang isinya array object
+                const data = res.data.posts
+                // Menampilkan datas kedalam konsol
+                console.log(data)
+                data.map((d, i) => {
+                    // Membuat tag p 
+                    // jadi variabel title sekarang adalah tag p
+                    const title = document.createElement("h2")
+                    title.classList.add("title")
+                    // Mengisi isi konten yang ada di dalam tag p yang dibuat di atas
+                    title.textContent = d.title
+
+                    // Membuat tag img
+                    const image = document.createElement("img")
+                    // Membuat class pada image
+                    image.classList.add("image-box")
+                    // Mengisi src atau alamat link dari data array yang dibuat diatas
+                    image.src = d.thumbnail
+
+                    // Membuat tag p
+                    const description = document.createElement("p")
+                    description.classList.add("description")
+                    // Mengisi isi konten yang ada di dalam tag p yang dibuat di atas
+                    description.textContent = d.description
+
+                    // Membuat tag a
+                    const link = document.createElement("a")
+                    link.href = d.link
+                    link.textContent = "Selengkapnya"
+                    description.appendChild(link)
+                    // Membuat tag div
+                    const box = document.createElement("div")
+                    box.classList.add("box")
+                    // Memasukan author, image dan descrition kedalam box (tag div)
+                    box.appendChild(title)
+                    box.appendChild(image)
+                    box.appendChild(description)
+                    // Memanggil div dengan class container yang ada pada body
+                    // ditampung dalam variabel container
+                    const container = document.querySelector(".container")
+                    // Memasukan box kedalam tag div dengan class container yang ada di tag body
+                    container.appendChild(box)
+                })
+
+
+            })
+            .catch(error => {
+                console.error(error);
+            });
+
+    </script>
+
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            /* justify-content: space-between; */
+            gap: 40px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            width: 370px;
+            height: 450px;
+            border: 2px solid black;
+            padding: 6px;
+        }
+
+        .title {
+            text-align: center;
+        }
+
+        .image-box {
+            width: 300px;
+            height: 200px;
+            margin-inline: auto;
+        }
+
+        .description {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+    </div>
+</body>
+
+</html>

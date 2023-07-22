@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module">
+        const url = 'https://free-nba.p.rapidapi.com/teams?page=0';
+        const options = {
+            method: 'GET',
+            headers: {
+                'X-RapidAPI-Key': '819147b989msh98c327a656ac06dp17d384jsn1b1ea92bf9a5',
+                'X-RapidAPI-Host': 'free-nba.p.rapidapi.com'
+            }
+        };
+
+
+        try {
+            const response = await fetch(url, options);
+            console.log(response)
+            const result = await response.json();
+            const datas = result.data;
+
+            console.log(datas)
+            datas.map((d, i) => {
+                if (i <= 4) {
+                    // Membuat Tag Untuk Tampungan Menampilkan Data Kedalam HTML
+                    const card = document.createElement("div")
+                    // menambahkan class kedalam tag div yang sudah dibuat barusan
+                    card.classList.add("card")
+                    const id = document.createElement("p")
+                    const abbreviation = document.createElement("p")
+                    const city = document.createElement("p")
+                    const fullName = document.createElement("p")
+
+
+                    //  Memasukan data dari API kedalam tag yang sudah kita buat diatas
+                    id.textContent = (`Id : ${d.id}`);
+                    // id.style.backgroundColor = "red"
+                    // id.textContent = (`Ausyah`);
+                    abbreviation.textContent = (`Singkatan : ${d.abbreviation}`);
+                    city.textContent = (`Kota : ${d.city}`);
+                    // city.style.backgroundColor = "pink"
+                    fullName.textContent = (`Nama Lengkap : ${d.full_name}`);
+
+                    // Memasukan setiap Paragraf atau tag <p> kedalam div 
+                    card.appendChild(id);
+                    card.appendChild(abbreviation);
+                    card.appendChild(city);
+                    card.appendChild(fullName);
+                    card.addEventListener('click', () => {
+                        card.style.backgroundColor = "white"
+                    })
+
+
+                    // Memasukan div yang sudah ada data dari tag p kedalam div dengan class .container
+                    // yang sudah dibuat langsung di dalam tag body
+                    const container = document.querySelector(".container")
+                    container.appendChild(card)
+                }
+            })
+        } catch (error) {
+            console.error(error);
+        }
+
+        // let p = document.createElement('p')
+        // p.textContent = "Saya Capek Belajar Terus"
+
+        // let teguh = document.getElementsByClassName("teguh")
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        .card {
+            padding: 8px;
+            width: 210px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 6px;
+            cursor: pointer;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        .card:nth-child(odd) {
+            background-color: #F1C27B;
+        }
+
+        .card:nth-child(even) {
+            background-color: #D7C0AE;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="teguh"></div>
+    <div class="container"></div>
+</body>
+
+</html>

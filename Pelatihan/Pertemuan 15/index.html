@@ -127,15 +127,15 @@
                     stokProduk.textContent = "Stock : " + d.stock + " pcs"
 
                     // Membuat event click pada produk dan akan memunculkan data produk secara detail pada halaman berbeda
-                    card.addEventListener('click', (e) => {
-                        e.preventDefault()
+                    card.addEventListener('click', () => {
+                        // e.preventDefault()
                         // Menyimpan data yang di klik kedalam localstorage (setItem)
                         localStorage.setItem("Brand", d.brand)
                         localStorage.setItem("Jenis", d.category)
                         localStorage.setItem("Deskripsi", d.description)
                         localStorage.setItem("Harga", d.price)
                         localStorage.setItem("Nama", d.title)
-                        localStorage.setItem("Image", d.images[0])
+                        localStorage.setItem("gambar", d.images[0])
                         link.target = "_self"
                         link.href = "sales.html"
                     })
